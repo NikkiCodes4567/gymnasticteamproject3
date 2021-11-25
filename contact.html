@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <title> Cornell Women Gymnastics Team </title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="styles/all.css" />
+  <script type="text/javascript" src="scripts/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="scripts/dropdown.js"></script>
+  <script type="text/javascript" src="scripts/contact.js"></script>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li>
+        <a href="index.html">HOME</a>
+      </li>
+      <li>
+        <a id="dropdown1" href="#">OUR TEAM</a>
+        <ul id="gymnastsDropdown" class="navDropdown hidden">
+          <li class="child1">
+            <a href="leadership.html">LEADERSHIP</a>
+          </li>
+          <li class="child1">
+            <a href="seniors.html">SENIORS</a>
+          </li>
+          <li class="child1">
+            <a href="gymnasts.html">GYMNASTS</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a id="dropdown2" href="#">MEETS</a>
+        <ul id="meetsDropdown" class="navDropdown hidden">
+          <li class="child2">
+            <a href="upcoming.html">UPCOMING MEETS</a>
+          </li>
+          <li class="child2">
+            <a href="past.html">PAST MEETS</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="contact.html"><strong>CONTACT US</strong></a>
+      </li>
+    </ul>
+  </nav>
+  <p class="special2"> Interested in learning more about the Cornell Women's Gymnastics Team? </p>
+
+  <div class="gymnasts">
+    <div class="topGymnasts">
+      <!--All images below were taken from the Cornell Gymanstics instagram page with their permissions. Cornell Gymnastics. Instagram. 2018 https://www.instagram.com/cornellgymnastics/?hl=en-->
+      <div class="info1">
+        <img class="pics" src="images/gymnastcancersucks.jpg" alt="gymnasts">
+        <p class="source">Source: https://www.instagram.com/p/BqfgLJgnU67/</p>
+        <!--https://www.instagram.com/p/BqfgLJgnU67/-->
+      </div>
+      <div class="info1">
+        <img class="pics" src="images/gymnastssuits.jpg" alt="gymnasts">
+        <p class="source">Source: https://www.instagram.com/p/BfAQHwSDQmf/</p>
+        <!--https://www.instagram.com/p/BfAQHwSDQmf/-->
+      </div>
+      <div class="info1">
+        <img class="pics" src="images/gymnastsgrouppic.jpg" alt="gymnasts">
+        <p class="source">Source: https://www.instagram.com/p/BfAQHwSDQmf/</p>
+        <!--https://www.instagram.com/p/BfAQHwSDQmf/-->
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <h1 class="form"> Contact Us </h1>
+  </footer>
+
+  <div class="box">
+    <div class="contactformbox">
+      <form id="feedback" method="post" action="https://www.cs.cornell.edu/courses/cs1300/2018fa/submit.php" novalidate>
+
+        <div class="namedateline">
+          <div class="sidebyside">
+            <label class="label"> <strong> Name: </strong> </label>
+            <input type="text" id="userName" name="Name" placeholder="Name" required />
+            <p class="warning2 hidden" id="nameError"> <strong> Please include a First and Last name. </strong> </p>
+          </div>
+          <div class="emailbyside">
+            <label for="userEmail"> <strong> Email: </strong> </label>
+            <input type="email" id="userEmail" name="Email" placeholder="Email" required />
+            <p class="warning2 hidden" id="emailError"> <strong> Please Include a valid Email. </strong> </p>
+          </div>
+        </div>
+
+        <div>
+          <label for="userEvent"> <strong class="centertext"> How did you hear about us? </strong> </label>
+        </div>
+        <div>
+          <select class="spacing3" id="userEvent" name="Events[]" multiple required>
+            <option value="facebook"> Cornell Gymnastics Facebook Page</option>
+            <option value="cornell"> Cornell University Athletics Page</option>
+            <option value="meets"> Attended one of the meets </option>
+            <option value="all"> All of the above </option>
+          </select>
+          <p class="warning hidden" id="eventError"> <strong> Please select an item. </strong> </p>
+        </div>
+
+        <div> <label class="label" for="userQuestions"> <strong class="centertext"> Do you have any questions for us? </strong> </label> </div>
+        <textarea class="spacing4" id="userQuestions" name="Questions" required></textarea>
+        <p class="warning hidden" id="questionsError"> <strong> Please include some text. </strong> </p>
+
+        <div class="submit">
+          <button type="submit" class="submit"> Send </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+  <div class="strip">
+    <h1 class="form"> Where are we located? </h1>
+  </div>
+
+  <p class="homepagetext"> The Cornell Women's Gymnastics team holds there practices in Teagle Hall on thier second floor, which is located at 512 Campus Rd, Ithaca, NY 14850. As the Cornell University's Big Red page notes <q> The women’s gymnastics
+      team trains and competes in the 10,400-square-foot Teagle Hall Gymnasium. Outfitted with the newest AAI equipment, the gym features six high beams, two low beams, three full sets of bars, two vaulting tables, a stratum floor, a 30-foot
+      Tumbl-Trak and a trampoline. The gym also includes a state of the art loose foam and resi-pit system. Gymnasts utilize the pit in conjunction with all four events. The pit area includes an 80-foot vaulting runway, a 270 square-foot beam and
+      vault area, a 48-foot spring tumbling run and a full set of bars (converts to single rail) mounted over the pit. </q> </p>
+  <p class="source"> “Teagle Gymnasium.” RSS, cornellbigred.com/sports/2007/8/9/TeagleGym.aspx. </p>
+  <!-- “Teagle Gymnasium.” RSS, cornellbigred.com/sports/2007/8/9/TeagleGym.aspx.-->
+
+  <div class="gymnasts">
+    <div class="topGymnasts">
+      <!--All images below were taken from the Cornell Gymanstics instagram page with their permissions. Cornell Gymnastics. Instagram. 2018 https://www.instagram.com/cornellgymnastics/?hl=en-->
+      <div class="info">
+        <img src="images/teagle'sgym.jpg" alt="gymnasts">
+        <p class="source">Source: Google Search, Google, https://www.google.com/search</p>
+        <!--Google Search, Google, www.google.com/search?-->
+      </div>
+      <div class="info">
+        <img src="images/gym.jpg" alt="teaglegym">
+        <p class="source"> Source: “Teagle Gymnasium.” RSS, cornellbigred.com/sports/2007/8/9/TeagleGym.aspx.</p>
+        <!--“Teagle Gymnasium.” RSS, cornellbigred.com/sports/2007/8/9/TeagleGym.aspx.-->
+      </div>
+      <div class="info">
+        <img src="images/cornellgym.jpg" alt="teaglegym">
+        <p class="source"> Source: “Teagle Gymnasium.” RSS, cornellbigred.com/sports/2007/8/9/TeagleGym.aspx.</p>
+        <!--“Teagle Gymnasium.” RSS, cornellbigred.com/sports/2007/8/9/TeagleGym.aspx.-->
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p class="homepagetext2"> © 2018 by Carlos Fernandez, Haley Mathews, Nicole Jourdain, and Matthew Suh </p>
+  </footer>
+
+</body>
+
+</html>

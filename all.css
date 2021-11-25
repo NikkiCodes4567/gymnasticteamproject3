@@ -1,0 +1,1052 @@
+body{
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+}
+
+/* Navigation Bar */
+nav{
+    background-color: #a22929;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+    height:63px;
+}
+
+nav li{
+    list-style-type:none;
+    display:inline-block;
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 15px;
+    font-family: monospace;
+    display: block;
+    padding: 0.8em 1.0em;
+    padding-bottom:10px;
+    border-radius: 1em;
+}
+
+nav li a:hover{
+    background-color:black;
+}
+
+.navDropdown {
+    position: absolute;
+    background-color: #a22929;
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    padding:0;
+    padding-bottom:5px;
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.3);
+}
+
+strong{
+    font-weight:normal;
+    text-decoration:underline;
+}
+
+.hidden{
+    display:none;
+}
+
+/* Overall Heading Styles */
+h1 {
+    color: #a22929;
+    font-size: 30px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h2 {
+    font-size: 20px;
+    color: #a22929;
+}
+
+/* Footer */
+footer{
+    background-color:#a22929;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    height:55px;
+    margin-top:25px;
+}
+/*Home Page */
+.special{
+    letter-spacing: 3px;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin: 5px;
+    padding: 15px;
+    color: #212d60;
+}
+
+.gymbanner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.testimonial{
+    background-color: #a22929;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px 35px;
+    margin: 0 auto;
+    width: auto;
+    display:table;
+}
+
+.testimonial2{
+    color: #a22929;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px 35px;
+    margin: 0 auto;
+    width: auto;
+    display:table;
+}
+
+.warning{
+    color:#c91200;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.warning2{
+    color:#c91200;
+    font-family: sans-serif;
+}
+
+.namedateline input {
+    margin: 10px;
+    position: relative;
+}
+
+.namedateline{
+    text-align: center;
+}
+
+.sidebyside{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 8px;
+}
+
+.emailbyside{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 8px;
+}
+
+.cornelllogo{
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.winner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.winner2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.winner3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 25px;
+}
+
+.competition{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-right: 10px;
+    padding-left: 20px;
+    padding-top: 1px;
+}
+
+.competition img{
+    width: 380px;
+    height: 300px;
+    margin: 20px;
+}
+
+
+.competition2{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-right: 10px;
+    padding-top: 1px;
+}
+
+.competition2 img{
+    width: 380px;
+    height: 300px;
+    margin: 20px;
+}
+
+.homepagetext{
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 20px 35px;
+    margin: 0 auto;
+    width: auto;
+    display:table;
+    text-align: left;
+}
+
+.homepagetext2{
+    font-family: sans-serif;
+    font-size: 11px;
+    padding: 0px 35px;
+    margin: 0 auto;
+    width: auto;
+    display:table;
+    padding-top: 10px;
+}
+
+.homepagetext3{
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0 auto;
+    width: auto;
+    display:table;
+}
+
+.spacing1 {
+    width:300px;
+    height: 20px;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    resize:vertical;
+}
+
+.spacing2 {
+    width:300px;
+    height: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    resize:vertical;
+    display: table;
+    margin: auto;
+
+}
+
+.spacing3 {
+    width:400px;
+    height: 60px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    resize:vertical;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.spacing4 {
+    width:400px;
+    height: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    resize:vertical;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.padding{
+    padding-top: 60px;
+}
+
+.submit{
+    display: inline-block;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #a22929;
+    color: white;
+}
+
+.centertext{
+    text-align: center;
+    display: block;
+    margin: 15px;
+}
+
+.gymnasticstextarea input {
+    display: inline-block;
+    width: 25%;
+}
+
+.nameline input {
+    display: inline-block;
+    width: 10%;
+    margin: auto;
+    vertical-align: top;
+}
+
+.upcomingpics {
+  flex-direction: row;
+  display:flex;
+  flex-wrap:nowrap;
+}
+
+.upcomingpicsimage {
+  flex-grow:1;
+  margin-left: 25px;
+  margin-right:25px;
+}
+
+.newsource {
+  margin-left: 14px;
+  margin-right:14px;
+}
+
+.box{
+    border-radius: 1px;
+    background-color: #f2f2f2;
+    border: solid thick;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+
+.SphotoAndInfo{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 5px 10px 5px grey;
+    padding: 15px;
+    background-color: white;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+}
+
+/* Leadership Page */
+.Lbox {
+    background-color: #f2f2f2;
+}
+
+.LphotoAndInfo {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 5px 10px 5px grey;
+    padding: 15px;
+    background-color: white;
+}
+
+.Lh3 {
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.photoAndInfo1 {
+    background-color: #a22929;
+}
+
+.photoAndInfo2 {
+    background-color: #ffffff;
+}
+
+.leadershipInfo {
+    padding-left: 20px;
+}
+
+.formcenter{
+    margin-left: 0%;
+    margin-right: 0%;
+    width:247%;
+}
+
+.leadershipRows {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.photoAndInfo {
+    margin: 10px;
+}
+
+.leadershipTitle {
+    text-align: center;
+}
+
+.months{
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    background-color: #a22929;
+}
+
+.infomeet{
+    text-align: center;
+}
+
+.times{
+    text-align: center;
+}
+
+/* Gymnasts Page */
+.year {
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+    background-color: #a22929;
+}
+
+.title {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.gymnasts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topGymPic {
+    margin-bottom: 50px;
+    margin-top: 10px;
+    background-color: #a22929;
+    padding: 30px;
+}
+
+.info h3, .info p {
+    text-align: center;
+}
+
+.topGymnasts, .bottomGymnasts {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.info, .info1 {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.info img {
+    width: 234px;
+}
+
+h3 {
+    margin: 5px;
+    font-family: sans-serif;
+}
+
+.town {
+    margin: 3px;
+    font-family: sans-serif;
+}
+
+.details {
+    margin-top: 8px;
+    font-family: sans-serif;
+}
+
+.group_pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.source {
+    font-size: 7px;
+    text-align: center;
+}
+
+.highFive{
+  width:100%;
+}
+
+/* Past Meets Page */
+
+#containerPast{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    margin:0;
+    width:100%;
+    height:auto;
+}
+
+.pastText{
+    display:flex;
+    flex-direction:column;
+    width:60%;
+    margin-left:20%;
+}
+
+#pastMeets, #pastMeets2 {
+  font-size: 20px;
+}
+
+.nationals{
+    display:inline-block;
+}
+
+.lindsey{
+    display:inline-block;
+}
+
+/* Past Meets Photo Gallery */
+#photoGallery1, #photoGallery2{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    width:75%;
+    margin:auto;
+}
+
+#photoGallery1{
+    margin-bottom:75px;
+}
+
+#photoGalleryNationals, #photoGalleryLindsey{
+    width:100%;
+    height:100%;
+    /* margin:0 auto 0 auto; */
+}
+
+#buttonNext1, #buttonNext2{
+    /* height:100%; */
+    width:60px;
+    background-color:#6c6c6c;
+    border:solid #6c6c6c;
+    border-radius: 0 5px 5px 0;
+    color:white;
+    opacity:0.9;
+}
+
+#buttonNext1:hover, #buttonNext2:hover{
+    background-color:#a22929;
+    border:solid #a22929;
+}
+
+#buttonBack1, #buttonBack2{
+    /* height:100%; */
+    width:60px;
+    background-color: #6c6c6c;
+    border:solid #6c6c6c;
+    border-radius: 5px 0 0 5px;
+    color:white;
+    opacity:0.9;
+}
+
+#buttonBack1:hover, #buttonBack2:hover{
+    background-color:#a22929;
+    color:white;
+    border: solid #a22929;
+}
+
+.containerGalleryButton{
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+}
+
+.pastText{
+    letter-spacing: 3px;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-top:15px;
+    /* margin: 5px;
+    padding: 15px; */
+}
+
+
+
+/* Contact Us Page */
+.maps img {
+    width: 400px;
+    height: 300px;
+}
+
+.pics {
+  height: 200px;
+}
+
+.maps {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.spsize{
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+
+    line-height: 0px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.flexbox{
+    display: flex;
+    height: 300px;
+}
+
+.special2{
+    letter-spacing: 3px;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin: 5px;
+    padding: 20px;
+    color: #212d60;
+    text-align: center;
+}
+
+.form{
+    text-align: center;
+    color: #ffffff;
+    margin:1.5px;
+    margin-left: -2px;
+    margin-top: 10px;
+}
+
+.form2{
+    margin-top:0px;
+}
+
+.strip{
+    background-color:#a22929;
+    color:white;
+    display:flex;
+    justify-content:center;
+    height:50px;
+
+}
+
+.teagle{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.teagle2{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.teagle img{
+    width: 400px;
+    height: 300px;
+    padding:10px;
+}
+
+.teagle2 img{
+    width: 300px;
+    height: 200px;
+    padding:10px;
+}
+
+
+#feedback{
+    font-family: sans-serif;
+
+}
+
+#name {
+    font-family:sans-serif;
+}
+
+@media screen and (max-width:350px){
+  footer{
+    height:75px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    .group_pic {
+        width: 80%;
+    }
+
+    .upcomingpics {
+      flex-direction: column;
+      display:flex;
+      flex-wrap:nowrap;
+    }
+
+    .upcomingpicsimage {
+      flex-grow:1;
+      margin-left: 25px;
+      margin-right:25px;
+      margin-bottom: 8px;
+    }
+
+
+    .topGymnasts, .bottomGymnasts {
+        flex-direction: column;
+    }
+    .photoAndInfo {
+        flex-direction: column;
+    }
+
+    .competition {
+
+        margin-top: 8%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .competition img{
+        display: flex;
+        flex-direction: column;
+        max-width: 90%;
+    }
+    .competition2 {
+
+        margin-top: 8%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .competition2 img{
+        display: flex;
+        flex-direction: column;
+        max-width: 90%;
+    }
+
+    .homepagetext2{
+        display: inline-block;
+        font-size: 7px;
+        padding-top: 15px;
+    }
+
+    .homepagetext{
+        display:inline-block;
+        font-size: 15px;
+    }
+
+    .testimonial{
+        display: inline-block;
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .winner3{
+        margin: 0 auto;
+    }
+    nav li a {
+        text-decoration: none;
+        color: white;
+        margin: -2px;
+        font-size: 12px;
+        font-family: monospace;
+        display: block;
+        padding: 0.8em 1.0em;
+        padding-bottom:10px;
+        border-radius: 1em;
+    }
+
+    .special{
+        display:inline-block;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .special2{
+        display:inline-block;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .leadershipRows {
+        flex-direction: column;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .LphotoAndInfo, .SphotoAndInfo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .SphotoAndInfo {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .Lh3 {
+        text-align: center;
+    }
+
+    .sidebyside{
+        width: 100%;
+        margin-left: 60px;
+        text-align: left;
+        margin-top: 8%;
+    }
+
+    .emailbyside{
+        width: 100%;
+        margin-left: 60px;
+        text-align: left;
+        margin-top: 8%;
+    }
+
+    .spacing3{
+        margin-left: 25px;
+        display: block;
+        width: 90%;
+        margin-top: 8%;
+        margin-right: 50px;
+    }
+
+    .spacing4{
+        margin-left: 25px;
+        display: block;
+        width: 90%;
+        margin-top: 8%;
+        margin-right: 50px;
+    }
+
+    .form{
+        display: inline-block;
+        font-size: 20px;
+        padding-top: 15px;
+        margin-top: 5px;
+    }
+
+    .warning2{
+        color:#c91200;
+        font-family: sans-serif;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 8px;
+        font-size: 10px;
+        width: 100%;
+    }
+
+    .warning{
+        font-size: 10px;
+        width:100%;
+    }
+
+    #photoGallery1, #photoGallery2{
+        width:90%;
+    }
+    #buttonNext1, #buttonNext2{
+        width:15px;
+    }
+
+    #buttonBack1, #buttonBack2{
+        width:15px;
+    }
+}
+
+
+@media screen and (min-width: 900px) and (max-width: 1300px)  {
+    .competition {
+        margin-top: 3%;
+        margin-right:5%;
+        margin-left:3%;
+    }
+
+    .competition img{
+        display: flex;
+        flex-direction: column;
+        max-width: 90%;
+    }
+
+    .competition2 {
+        margin-right:5%;
+        margin-left:3%;
+    }
+
+    .competition2 img{
+        display: flex;
+        flex-direction: column;
+        max-width: 90%;
+    }
+}
+
+
+/* Tablet */
+@media screen and (min-width: 600px) and (max-width: 900px)  {
+    .group_pic {
+        width: 80%;
+    }
+
+    .topGymnasts, .bottomGymnasts {
+        flex-direction: column;
+    }
+    .photoAndInfo {
+        flex-direction: column;
+    }
+
+    .competition {
+        margin-top: 3%;
+        margin-right:5%;
+        margin-left:3%;
+    }
+
+    .competition img{
+        display: flex;
+        flex-direction: column;
+        max-width: 90%;
+
+    }
+
+    .competition2 {
+        margin-top: 3%;
+        margin-right:5%;
+        margin-left:3%;
+    }
+
+    .competition2 img{
+        display: flex;
+        flex-direction: column;
+        max-width: 90%;
+    }
+
+    .homepagetext2{
+        display: inline-block;
+        font-size: 7px;
+        padding-top: 15px;
+    }
+
+    .homepagetext{
+        display:inline-block;
+        font-size: 15px;
+    }
+
+    .testimonial{
+        display: inline-block;
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .winner3{
+        margin: 0 auto;
+    }
+    .group_pic {
+        width: 80%;
+    }
+
+    .topGymnasts, .bottomGymnasts {
+        flex-direction: column;
+    }
+    .photoAndInfo {
+        flex-direction: column;
+    }
+
+    .homepagetext2{
+        display: inline-block;
+        font-size: 7px;
+        padding-top: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .homepagetext{
+        display:inline-block;
+        font-size: 15px;
+    }
+
+    .testimonial{
+        display: inline-block;
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .winner3{
+        margin: 0 auto;
+    }
+
+    nav li a {
+        text-decoration: none;
+        color: white;
+        margin: -2px;
+        font-size: 12px;
+        font-family: monospace;
+        display: block;
+        padding: 0.8em 1.0em;
+        padding-bottom:10px;
+        border-radius: 1em;
+    }
+
+    .special{
+        display:inline-block;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .special2{
+        display:inline-block;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .leadershipRows {
+        flex-direction: column;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .LphotoAndInfo, .SphotoAndInfo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Lh3 {
+        text-align: center;
+    }
+}

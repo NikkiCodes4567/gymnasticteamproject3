@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles/all.css">
+  <script type="text/javascript" src="scripts/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="scripts/dropdown.js"></script>
+  <script type="text/javascript" src="scripts/gallery.js"></script>
+
+  <title>Past Meets</title>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li>
+        <a href="index.html">HOME</a>
+      </li>
+      <li>
+        <a id="dropdown1" href="#">OUR TEAM</a>
+        <ul id="gymnastsDropdown" class="navDropdown hidden">
+          <li class="child1">
+            <a href="leadership.html">LEADERSHIP</a>
+          </li>
+          <li class="child1">
+            <a href="seniors.html">SENIORS</a>
+          </li>
+          <li class="child1">
+            <a href="gymnasts.html">GYMNASTS</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a id="dropdown2" href="#"><strong>MEETS</strong></a>
+        <ul id="meetsDropdown" class="navDropdown hidden">
+          <li class="child2">
+            <a href="upcoming.html">UPCOMING MEETS</a>
+          </li>
+          <li class="child2">
+            <a href="past.html">PAST MEETS</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="contact.html">CONTACT US</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div id="containerPast">
+    <p class="special2">Some of our past meets...</p>
+
+    <h1 class="year" id="pastMeets">2017 USA Gymnastics Women’s Collegiate National Championships</h1>
+    <div class="pastText">
+      <p class="nationals pastP">Hosted by Seattle Pacific University from April 7-9, 2018 at Brougham Pavilion in Seattle, Washington. </p>
+    </div>
+
+    <div id="photoGallery1">
+      <button id="buttonBack1">&#10094;</button>
+      <img id="photoGalleryNationals" src="images/nationalsCover.jpg" alt="2017 USA Gymnastics Women's Collegiate National Championships" />
+      <!-- Images from the Gymnastics Team Facebook Page https://www.facebook.com/groups/CornellGymnastics/-->
+      <button id="buttonNext1">&#10095;</button>
+    </div>
+
+    <h1 class="year" id="pastMeets2">Lindsey Ferris Invitational</h1>
+    <div class="pastText">
+      <p class="lindsey pastP">Hosted by George Washington University on January 14, 2018</p>
+    </div>
+
+    <div id="photoGallery2">
+      <button id="buttonBack2">&#10094;</button>
+      <img id="photoGalleryLindsey" src="images/lindseyCover.jpg" alt="January 2018 Lindsey Ferris Invitational" />
+      <!-- Images from the Gymnastics Team Facebook Page https://www.facebook.com/groups/CornellGymnastics/ -->
+      <button id="buttonNext2">&#10095;</button>
+    </div>
+
+  </div>
+
+  <footer>
+    <!-- Images Source: https://www.facebook.com/groups/CornellGymnastics/ -->
+    <p class="source">Images Courtesy of the Cornell Gymnastics Team Facebook Page | https://www.facebook.com/groups/CornellGymnastics/</p>
+    <p class="homepagetext2"> © 2018 by Carlos Fernandez, Haley Mathews, Nicole Jourdain, and Matthew Suh </p>
+  </footer>
+
+</body>
+
+</html>
